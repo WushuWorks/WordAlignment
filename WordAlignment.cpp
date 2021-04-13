@@ -24,7 +24,6 @@ class Textbox {
 
 void Textprint(Textbox text[], int offsets[], int size) {
 
-	// nested for loop go brr
 	for (int i = 0; i < size; ++i) {
 		for (int z = 0; z < text[i].width; z++) {
 			for (int y = 0; y < offsets[i]; y++) {
